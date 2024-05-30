@@ -16,10 +16,10 @@ def get_sum_of_selected_months_and_years(file,year_from : int, year_to : int, mo
                 value = float(_line.split(',')[1])
             except Exception as e:
                 value = 0
-                st.write(f"Some error on {e}")
-                st.write(f"_line {_line}")
-                st.write(f"_year {_year}")
-                st.write(f"_month {_month}")
+                #st.write(f"Some error on {e}")
+                #st.write(f"_line {_line}")
+                #st.write(f"_year {_year}")
+                #st.write(f"_month {_month}")
                 
             if _year not in dict_of_data.keys():
                 dict_of_data[_year] = dict()
