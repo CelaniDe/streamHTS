@@ -25,7 +25,7 @@ def get_sum_of_selected_months_and_years(file,year_from : int, year_to : int, mo
                 dict_of_data[_year] = dict()
             else:
                 if _month not in dict_of_data[_year].keys():
-                    dict_of_data[_year][_month] = 0
+                    dict_of_data[_year][_month] = value
                 else:
                     dict_of_data[_year][_month] += value
         
